@@ -101,7 +101,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: const Text('Launch in app'),
               ),
               const Padding(padding: const EdgeInsets.all(16.0)),
-//            new FutureBuilder<Null>(future: _launched, builder: _launchStatus),
+              new FutureBuilder<Null>(future: _launched, builder: _launchStatus),
             ],
           ),
         ),
